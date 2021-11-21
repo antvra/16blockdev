@@ -185,3 +185,35 @@ viewShowItems.addEventListener('click', function(){
     viewItemToShow.style.height = '160px';
   }
 })
+
+  /*Services Description*/
+
+const servicesShowItems = document.querySelector('.description__item-btn');
+const servicesShowItemsText = document.querySelector('.description__item-btn > span');
+const servicesShowItemsImg = document.querySelector('.readmore');
+const servicesItemToShow = document.querySelector('.description__overflow');
+
+  servicesShowItems.addEventListener('click', function(){
+    if(servicesShowItemsText.innerHTML == 'Читать далее'){
+      servicesShowItemsText.innerHTML = 'Скрыть все';
+      servicesShowItemsImg.classList.add('rotate');
+      servicesItemToShow.style.maxHeight = '100%';
+
+    }
+    else{
+      servicesShowItemsText.innerHTML = 'Читать далее'
+      servicesShowItemsImg.classList.remove('rotate');
+      if (screenWidth == 768){
+        servicesItemToShow.style.maxHeight = '125px';
+      }
+      else{
+        if(screenWidth == 320){
+          servicesItemToShow.style.maxHeight = '100px';
+        }
+        else{
+          servicesItemToShow.style.maxHeight = '100%';
+        }
+      }
+    }
+  })
+
