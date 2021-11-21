@@ -1,0 +1,66 @@
+.header{
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #D9FFF5;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    min-height: 88px;
+    align-items: center;
+}
+
+.button{
+    width: 40px;
+    height: 40px;
+    background-color: $button;
+    border-radius: 50%;
+
+    &__burger{
+        margin-right: 16px;
+        background-image: url('../img/burger.svg');
+    }
+
+    &__repair{
+        margin-left: 16px;
+        margin-right: 16px;
+        background-image: url('../img/repair.svg');
+    }
+
+    &__checkstatus{
+        background-image: url('../img/checkstatus.svg');
+    }
+
+    &__call{
+        background-image: url('../img/call.svg');
+    }
+
+    &__chat{
+        background-image: url('../img/chat.svg');
+    }
+
+    &__profile{
+        background-image: url('../img/profile.svg');
+    }
+}
+
+.left__side{
+    display: flex;
+    align-items: center;
+}
+
+.right__side{
+    display: flex;
+    align-items: center;
+}
+
+.buttons__group{
+    display: flex;
+    align-items: center;
+}
+
+.splitter{
+    width: 2px;
+    height: 32px;
+    background-color: #EAEAEA;
+}

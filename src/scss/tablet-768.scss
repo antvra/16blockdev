@@ -1,0 +1,155 @@
+@media (min-width: 768px) {
+
+    .swiper-pagination{
+        display: none;
+    }
+
+    .logo{
+        margin-left: 20px;
+    }
+
+    .button{
+        &__call{
+            margin-right: 16px;
+        }
+
+        &__chat{
+            margin-right: 16px;
+        }
+
+        &__profile{
+            margin-right: 16px;
+        }
+    }
+
+    .services__description{
+        flex-direction: row;
+        justify-content: space-between;
+        .description__item{
+            width: 45%;
+
+            &-img{
+                border-radius: 10px;
+            }
+        }
+
+        .description__item:first-child{
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .description__item-btn{
+            margin-right: auto;
+        }
+    }
+
+    .description__overflow{
+        position: relative;
+        max-height: 125px;
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+
+    .swiper__brands{
+        height: 160px;
+    }
+
+    .swiper-wrapper__brands{
+        display: flex;
+        flex-wrap: wrap;
+        width: 720px;
+        margin: 0 auto;
+    }
+
+    .swiper-slide__brands{
+        width: 224px;
+        margin-bottom: 16px;
+    }
+
+    .swiper-slide__brands:not(:nth-child(3n)){
+        margin-right: 24px;
+    }
+
+    .container{
+        padding: 0 24px;
+    }
+
+    .repair__btn_show{
+        display: flex;
+    }
+
+    .swiper__view{
+        height: 160px;
+    }
+
+    .swiper-wrapper__view{
+        display: flex;
+        flex-wrap: wrap;
+        width: 720px;
+        margin: 0 auto;
+    }
+
+    .swiper-slide__view{
+        width: 224px;
+        margin-bottom: 16px;
+    }
+
+    .swiper-slide__view:not(:nth-child(3n)){
+        margin-right: 24px;
+    }
+
+    .swiper__prices{
+        height: auto;
+        margin-bottom: 24px;
+    }
+
+    .swiper-wrapper__prices{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .swiper-slide__prices{
+        width: 100%;
+        height: 100%;
+    }
+
+    .repair__prices{
+        &-header{
+            display: flex;
+        }
+        &-title{
+            display: none;
+        }
+        &-item{
+            flex-direction: row;
+            height: auto;
+            align-items: center;
+            border-radius: 0;
+            border-bottom: 1px solid #eaeaea;
+        }
+        &-service{
+            width: 348px;
+        }
+        &-time{
+            width: 220px;
+        }
+        &-price{
+            width: 74px;
+        }
+    }
+
+    .footer{
+        &__items{
+            flex-direction: row;
+        }
+        &__team,
+        &__info{
+            flex: 1;
+        }
+        &__team{
+            text-align: left;
+        }
+        &__info{
+            text-align: right;
+        }
+    }
+}

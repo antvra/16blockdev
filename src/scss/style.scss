@@ -1,0 +1,94 @@
+@import 'vars';
+@import 'fonts';
+@import 'header';
+@import 'services';
+@import 'repair';
+@import 'modal__menu';
+@import 'modal__call';
+@import 'modal__feedback';
+
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #F8F8F8;
+  margin: 0;
+  min-width: 320px;
+  overflow-x: hidden;
+  font-family: 'TTLakes-Medium', 'Arial', 'Sans-serif';
+  font-weight: 500;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+button{
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.modal__menu-hidden{
+  display: none;
+}
+
+.modal__call-hidden{
+  display: none;
+}
+
+.modal__feedback-hidden{
+  display: none;
+}
+
+.hidden{
+  display: none;
+}
+
+.modal__block{
+  overflow: hidden;
+}
+
+.rotate{
+  transform: rotate(180deg);
+}
+
+.modal__open {
+  opacity: 0.2;
+}
+
+a {
+  text-decoration:none;
+  color: inherit;
+  white-space: nowrap;
+}
+
+.container{
+  padding: 0 16px;
+}
+
+.base{
+  z-index: 1;
+}
+
+@import 'tablet-768';
+@import 'tablet-1440';

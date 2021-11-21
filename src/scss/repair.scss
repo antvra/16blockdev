@@ -1,0 +1,208 @@
+.repair__header {
+    border-top: 1px solid #D9FFF5;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    color: #7e7e82;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    background: linear-gradient(
+        45deg, transparent, white);
+}
+.repair__brands {
+    &-item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 16px;
+        border: 1px solid #EAEAEA;
+        border-radius: 6px;
+        background: #ffffff;
+    }
+}
+
+.repair__brand{
+    &-button{
+        width: 40px;
+        height: 40px;
+        border: 2px solid #FF3E79;
+        border-radius: 50%;
+        background: url('../img/dropdown.svg') 50% 50% no-repeat;
+    }
+}
+
+.swiper__brands{
+    height: 120px;
+}
+
+.swiper-slide__brands{
+    width: 240px;
+    height: 72px;
+}
+
+.swiper__view{
+    height: 220px;
+}
+
+.swiper-slide__view{
+    width: 240px;
+    height: 160px;
+}
+
+.swiper__prices{
+    height: 260px;
+}
+
+.swiper-slide__prices{
+    width: 260px;
+    height: 200px;
+}
+
+:root{
+    --swiper-theme-color: #B5B6BC;
+}
+
+.repair__view {
+    &-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 16px;
+        border: 1px solid #EAEAEA;
+        border-radius: 6px;
+        height: 126px;
+        background: #ffffff;
+    }
+
+    &-text{
+        color: #1b1c21;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: normal;
+    }
+
+    &-button{
+        width: 40px;
+        height: 40px;
+        border: 2px solid #FF3E79;
+        border-radius: 50%;
+        background: url('../img/dropdown.svg') 50% 50% no-repeat;
+        align-self: flex-end;
+    }
+}
+
+.repair__prices{
+    &-header{
+        display: none;
+        padding: 16px;
+        justify-content: space-between;
+    }
+    &-title{
+        color: #7E7E82;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: normal;
+    }
+    &-title_top{
+        color: #7E7E82;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: normal;
+    }
+    &-title_top:first-child{
+        width: 348px;
+    }
+    &-title_top:nth-child(2){
+        width: 74px;
+    }
+    &-title_top:last-child{
+        width: 220px;
+    }
+    &-text{
+        color: #1B1C21;
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: normal;
+    }
+    &-btn{
+        width: 88px;
+        height: 32px;
+        border-radius: 16px;
+        background-color: #FF3E79;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 16px;
+    }
+    &-time{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.repair__prices-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px;
+    height: 168px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.repair__prices-attention{
+    &_block-top{
+        max-width: 421px;
+    }
+
+    &_text{
+        font-size: 14px;
+        line-height: 20px;
+        color: #1b1c21;
+        margin-bottom: 16px;
+    }
+    &_button{
+        text-align: left;
+        color: #1b1c21;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: bold;
+        margin-bottom: 57px;
+    }
+}
+
+.footer{
+    border-top: 1px solid#D9FFF5;
+    min-height: 147px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    &__items{
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__team,
+    &__info{
+        text-align: center;
+        font-size: 14px;
+        line-height: 16px;
+        color: #7e7e82;
+        font-weight: normal;
+    }
+    &__politics{
+        text-align: center;
+        font-size: 14px;
+        line-height: 16px;
+        color: #7e7e82;
+        font-weight: normal;
+    }
+}
